@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/vlad-buhaescu-qoob/apples.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'ApplesSDK/Classes/**/*'
+  s.exclude_files = 'ApplesSDK/**/*.DS_Store', 'ApplesSDK/**/.git', 'ApplesSDK/**/hidden/*.swift'
 end

@@ -42,7 +42,7 @@
 		2828382E07ADD4B309CD6AA71F8D063D /* Pods-ApplesSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApplesSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D073A41D5D49279A3D46965CDA9406D /* Pods-ApplesSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ApplesSDK_Example"; path = Pods_ApplesSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		322FC47007C5104FBD3D446699C53988 /* Pods-ApplesSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplesSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HiddenViewController.swift; path = ApplesSDK/Classes/HiddenViewController.swift; sourceTree = "<group>"; };
+		4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenViewController.swift; sourceTree = "<group>"; };
 		5617DCAE2B1534438EA26258A08F6285 /* ApplesSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApplesSDK.modulemap; sourceTree = "<group>"; };
 		5F0DF80C544BA49B628E22F66FC4DFF4 /* Pods-ApplesSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApplesSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		6095D2F43D85FE0B69022818426F40C2 /* Pods-ApplesSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApplesSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C856382BFC9B90D377F73F9E4BA2C5D3 /* ReplaceMe.swift */,
-				4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */,
+				4848A7172BFCE95E00BFC436 /* hidden */,
 				8F7D48FC337121F05945AC055D866284 /* Pod */,
 				BFA288E773829F506E97CCBFB3DF7942 /* Support Files */,
 			);
@@ -130,6 +130,14 @@
 				EEB10061C3A0FBD2A2D6545E6C1B8743 /* Pods-ApplesSDK_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4848A7172BFCE95E00BFC436 /* hidden */ = {
+			isa = PBXGroup;
+			children = (
+				4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */,
+			);
+			path = hidden;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
