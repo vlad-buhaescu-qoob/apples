@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		07DC8E905C1A12F50A5590AE3D365029 /* Pods-ApplesSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0DF80C544BA49B628E22F66FC4DFF4 /* Pods-ApplesSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BD0E8E8FE416EB31BF418184BC47F9D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856382BFC9B90D377F73F9E4BA2C5D3 /* ReplaceMe.swift */; };
 		4848A7162BFCE76B00BFC436 /* HiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */; };
+		4848A7422BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
+		4848A7432BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
+		4848A7442BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
 		6A5BF960F4886C38AD2B3A929C77EE92 /* ApplesSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E55E055AC03839D23EA722148F52 /* ApplesSDK-dummy.m */; };
 		904385913DA2963FAEDCE8DF405BB51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9F8D03379E1CC4D59B7269B448C1F40A /* Pods-ApplesSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C81260945A0E07B1A9A71FC0AC89BB /* Pods-ApplesSDK_Tests-dummy.m */; };
@@ -38,11 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06EE14E8E465D2F3140CB6CD49CA55A9 /* ApplesSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApplesSDK; path = ApplesSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EE14E8E465D2F3140CB6CD49CA55A9 /* ApplesSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplesSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2828382E07ADD4B309CD6AA71F8D063D /* Pods-ApplesSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApplesSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2D073A41D5D49279A3D46965CDA9406D /* Pods-ApplesSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ApplesSDK_Example"; path = Pods_ApplesSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D073A41D5D49279A3D46965CDA9406D /* Pods_ApplesSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplesSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		322FC47007C5104FBD3D446699C53988 /* Pods-ApplesSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplesSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenViewController.swift; sourceTree = "<group>"; };
+		4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ApplesCoreSeedSDK.framework; sourceTree = "<group>"; };
 		5617DCAE2B1534438EA26258A08F6285 /* ApplesSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApplesSDK.modulemap; sourceTree = "<group>"; };
 		5F0DF80C544BA49B628E22F66FC4DFF4 /* Pods-ApplesSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApplesSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		6095D2F43D85FE0B69022818426F40C2 /* Pods-ApplesSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApplesSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -67,7 +71,7 @@
 		E51F35AAC3C92174D9C418E101EC4C89 /* Pods-ApplesSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ApplesSDK_Example.modulemap"; sourceTree = "<group>"; };
 		E818655945E6F9D0C530EE947F5A13BE /* Pods-ApplesSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplesSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		EB87207E4003025832B18B19016FCC51 /* Pods-ApplesSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApplesSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EEB10061C3A0FBD2A2D6545E6C1B8743 /* Pods-ApplesSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ApplesSDK_Tests"; path = Pods_ApplesSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB10061C3A0FBD2A2D6545E6C1B8743 /* Pods_ApplesSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplesSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EF92C2B18B634E49609E1ADBF490F3 /* ApplesSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApplesSDK-prefix.pch"; sourceTree = "<group>"; };
 		F35551AB4D4FF0FCE27A6CAE1D65F05C /* ApplesSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApplesSDK.debug.xcconfig; sourceTree = "<group>"; };
 		F5886D7505105719DF83AFA4D726C94C /* Pods-ApplesSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ApplesSDK_Tests.modulemap"; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4848A7442BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
 				DE60804B99790D3526F8F26765D6271E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4848A7422BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
 				904385913DA2963FAEDCE8DF405BB51A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4848A7432BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
 				A8E7905125A4695B96C6C8DE8C7E28C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,9 +132,9 @@
 		40773D2865C0266FF2CC192155DD7C1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06EE14E8E465D2F3140CB6CD49CA55A9 /* ApplesSDK */,
-				2D073A41D5D49279A3D46965CDA9406D /* Pods-ApplesSDK_Example */,
-				EEB10061C3A0FBD2A2D6545E6C1B8743 /* Pods-ApplesSDK_Tests */,
+				06EE14E8E465D2F3140CB6CD49CA55A9 /* ApplesSDK.framework */,
+				2D073A41D5D49279A3D46965CDA9406D /* Pods_ApplesSDK_Example.framework */,
+				EEB10061C3A0FBD2A2D6545E6C1B8743 /* Pods_ApplesSDK_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */,
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -279,7 +287,7 @@
 			);
 			name = ApplesSDK;
 			productName = ApplesSDK;
-			productReference = 06EE14E8E465D2F3140CB6CD49CA55A9 /* ApplesSDK */;
+			productReference = 06EE14E8E465D2F3140CB6CD49CA55A9 /* ApplesSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6267EBFF0735F5B04120EC35BE5ACD33 /* Pods-ApplesSDK_Example */ = {
@@ -298,7 +306,7 @@
 			);
 			name = "Pods-ApplesSDK_Example";
 			productName = Pods_ApplesSDK_Example;
-			productReference = 2D073A41D5D49279A3D46965CDA9406D /* Pods-ApplesSDK_Example */;
+			productReference = 2D073A41D5D49279A3D46965CDA9406D /* Pods_ApplesSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D11F44DCB1512686FD64C3BFB7F5DAE8 /* Pods-ApplesSDK_Tests */ = {
@@ -317,7 +325,7 @@
 			);
 			name = "Pods-ApplesSDK_Tests";
 			productName = Pods_ApplesSDK_Tests;
-			productReference = EEB10061C3A0FBD2A2D6545E6C1B8743 /* Pods-ApplesSDK_Tests */;
+			productReference = EEB10061C3A0FBD2A2D6545E6C1B8743 /* Pods_ApplesSDK_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -431,11 +439,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/ApplesSDK/ApplesSDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ApplesSDK/ApplesSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ApplesSDK/ApplesSDK.modulemap";
 				PRODUCT_MODULE_NAME = ApplesSDK;
 				PRODUCT_NAME = ApplesSDK;
@@ -464,10 +480,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-ApplesSDK_Tests/Pods-ApplesSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ApplesSDK_Tests/Pods-ApplesSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -497,10 +521,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-ApplesSDK_Tests/Pods-ApplesSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ApplesSDK_Tests/Pods-ApplesSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -572,7 +604,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -592,10 +625,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-ApplesSDK_Example/Pods-ApplesSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ApplesSDK_Example/Pods-ApplesSDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -625,11 +666,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/ApplesSDK/ApplesSDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ApplesSDK/ApplesSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ApplesSDK/ApplesSDK.modulemap";
 				PRODUCT_MODULE_NAME = ApplesSDK;
 				PRODUCT_NAME = ApplesSDK;
@@ -657,10 +706,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Target Support Files/Pods-ApplesSDK_Example/Pods-ApplesSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ApplesSDK_Example/Pods-ApplesSDK_Example.modulemap";
 				OTHER_LDFLAGS = "";

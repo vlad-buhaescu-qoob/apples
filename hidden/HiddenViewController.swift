@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ApplesCoreSeedSDK
 
 public class HiddenViewController: UIViewController {
     public override func viewDidLoad() {
@@ -14,5 +15,8 @@ public class HiddenViewController: UIViewController {
     
     public func hiddenView() {
         print("this is a hidden view")
+        let b = HiddenAppleSeedViewController()
+        let c = b.hideSeed()
+        print("result is \(c)")
     }
 }

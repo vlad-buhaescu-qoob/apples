@@ -20,4 +20,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source_files = 'ApplesSDK/Classes/**/*'
   s.exclude_files = 'ApplesSDK/**/*.DS_Store', 'ApplesSDK/**/.git', 'ApplesSDK/**/hidden/*.swift'
+  s.vendored_frameworks = '**/ApplesCoreSeedSDK.framework'
 end
+
+
+
