@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApplesSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = 'ApplesSDK is to test how hiden files work for a public pod'
   s.description      = 'Peaches demo - ApplesSDK is to test how hiden files work for a public pod'
   s.swift_versions          = '5.10'
