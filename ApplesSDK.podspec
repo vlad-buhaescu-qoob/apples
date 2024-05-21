@@ -18,7 +18,5 @@ Pod::Spec.new do |s|
   s.author           = { '144892271' => 'vlad.buhaescu@qoobiss.com' }
   s.source           = { :git => 'https://github.com/vlad-buhaescu-qoob/apples.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'ApplesSDK/Classes/**/*'
-  
 end
