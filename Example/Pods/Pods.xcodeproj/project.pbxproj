@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		07DC8E905C1A12F50A5590AE3D365029 /* Pods-ApplesSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0DF80C544BA49B628E22F66FC4DFF4 /* Pods-ApplesSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BD0E8E8FE416EB31BF418184BC47F9D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856382BFC9B90D377F73F9E4BA2C5D3 /* ReplaceMe.swift */; };
-		4848A7142BFCDD9100BFC436 /* HiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4848A7132BFCDD9100BFC436 /* HiddenViewController.swift */; };
+		4848A7162BFCE76B00BFC436 /* HiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */; };
 		6A5BF960F4886C38AD2B3A929C77EE92 /* ApplesSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E55E055AC03839D23EA722148F52 /* ApplesSDK-dummy.m */; };
 		904385913DA2963FAEDCE8DF405BB51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9F8D03379E1CC4D59B7269B448C1F40A /* Pods-ApplesSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C81260945A0E07B1A9A71FC0AC89BB /* Pods-ApplesSDK_Tests-dummy.m */; };
@@ -42,7 +42,7 @@
 		2828382E07ADD4B309CD6AA71F8D063D /* Pods-ApplesSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApplesSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D073A41D5D49279A3D46965CDA9406D /* Pods-ApplesSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ApplesSDK_Example"; path = Pods_ApplesSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		322FC47007C5104FBD3D446699C53988 /* Pods-ApplesSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplesSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		4848A7132BFCDD9100BFC436 /* HiddenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenViewController.swift; sourceTree = "<group>"; };
+		4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HiddenViewController.swift; path = ApplesSDK/Classes/HiddenViewController.swift; sourceTree = "<group>"; };
 		5617DCAE2B1534438EA26258A08F6285 /* ApplesSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApplesSDK.modulemap; sourceTree = "<group>"; };
 		5F0DF80C544BA49B628E22F66FC4DFF4 /* Pods-ApplesSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApplesSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		6095D2F43D85FE0B69022818426F40C2 /* Pods-ApplesSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApplesSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C856382BFC9B90D377F73F9E4BA2C5D3 /* ReplaceMe.swift */,
-				4848A7132BFCDD9100BFC436 /* HiddenViewController.swift */,
+				4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */,
 				8F7D48FC337121F05945AC055D866284 /* Pod */,
 				BFA288E773829F506E97CCBFB3DF7942 /* Support Files */,
 			);
@@ -380,7 +380,7 @@
 			files = (
 				6A5BF960F4886C38AD2B3A929C77EE92 /* ApplesSDK-dummy.m in Sources */,
 				2BD0E8E8FE416EB31BF418184BC47F9D /* ReplaceMe.swift in Sources */,
-				4848A7142BFCDD9100BFC436 /* HiddenViewController.swift in Sources */,
+				4848A7162BFCE76B00BFC436 /* HiddenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
