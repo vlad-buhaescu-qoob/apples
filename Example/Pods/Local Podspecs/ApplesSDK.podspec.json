@@ -1,0 +1,22 @@
+{
+  "name": "ApplesSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ApplesSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/144892271/ApplesSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "144892271": "vlad.buhaescu@qoobiss.com"
+  },
+  "source": {
+    "git": "https://github.com/144892271/ApplesSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ApplesSDK/Classes/**/*"
+}

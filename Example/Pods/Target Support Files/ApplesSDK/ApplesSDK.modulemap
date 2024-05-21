@@ -1,0 +1,6 @@
+framework module ApplesSDK {
+  umbrella header "ApplesSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

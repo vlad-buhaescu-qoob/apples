@@ -1,0 +1,16 @@
+PODS:
+  - ApplesSDK (0.1.0)
+
+DEPENDENCIES:
+  - ApplesSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ApplesSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApplesSDK: b62b151a3da4230a1562637c297ebf992729d9b4
+
+PODFILE CHECKSUM: fae6f08dab3555e9f2f8c3cd97a73b5a3dcbbdbd
+
+COCOAPODS: 1.15.2
