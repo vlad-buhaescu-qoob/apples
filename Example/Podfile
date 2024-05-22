@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '15.0'
 
 target 'ApplesSDK_Example' do
   pod 'ApplesSDK', :path => '../'
@@ -11,3 +11,9 @@ target 'ApplesSDK_Example' do
     
   end
 end
+
+
+
+Showing All Issues
+Sandbox: rsync.samba(58914) deny(1) file-write-create /Users/vladbuhaescu/Library/Developer/Xcode/DerivedData/ApplesSDK-aisiltihsiqcdadfggvfsypwvjms/Build/Products/Debug-iphonesimulator/ApplesSDK_Example.app/Frameworks/ApplesCoreSeedSDK.framework/_CodeSignature
+

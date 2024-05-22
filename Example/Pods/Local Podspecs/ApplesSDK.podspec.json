@@ -1,9 +1,13 @@
 {
   "name": "ApplesSDK",
-  "version": "0.1.0",
-  "summary": "A short description of ApplesSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/144892271/ApplesSDK",
+  "version": "0.0.9",
+  "summary": "ApplesSDK is to test how hiden files work for a public pod",
+  "description": "Peaches demo - ApplesSDK is to test how hiden files work for a public pod",
+  "swift_versions": "5.10",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "homepage": "https://github.com/vlad-buhaescu-qoob/apples",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +16,15 @@
     "144892271": "vlad.buhaescu@qoobiss.com"
   },
   "source": {
-    "git": "https://github.com/144892271/ApplesSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/vlad-buhaescu-qoob/apples.git",
+    "tag": "0.0.9"
   },
-  "platforms": {
-    "ios": "10.0"
-  },
-  "source_files": "ApplesSDK/Classes/**/*"
+  "source_files": "ApplesSDK/Classes/**/*",
+  "exclude_files": [
+    "ApplesSDK/**/*.DS_Store",
+    "ApplesSDK/**/.git",
+    "ApplesSDK/**/hidden/*.swift"
+  ],
+  "vendored_frameworks": "**/ApplesCoreSeedSDK.framework",
+  "swift_version": "5.10"
 }
