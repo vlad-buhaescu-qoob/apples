@@ -8,6 +8,8 @@
 import UIKit
 import ApplesCoreSeedSDK
 
+// this file although hidden in the pos install is visible in the repo, if checked out
+
 public class HiddenViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()

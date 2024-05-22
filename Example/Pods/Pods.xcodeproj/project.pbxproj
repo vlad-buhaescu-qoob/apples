@@ -10,9 +10,9 @@
 		07DC8E905C1A12F50A5590AE3D365029 /* Pods-ApplesSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0DF80C544BA49B628E22F66FC4DFF4 /* Pods-ApplesSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BD0E8E8FE416EB31BF418184BC47F9D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856382BFC9B90D377F73F9E4BA2C5D3 /* ReplaceMe.swift */; };
 		4848A7162BFCE76B00BFC436 /* HiddenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */; };
-		4848A7422BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
-		4848A7432BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
-		4848A7442BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
+		4848A7502BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A74F2BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
+		4848A7512BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A74F2BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
+		4848A7522BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848A74F2BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework */; platformFilter = ios; };
 		6A5BF960F4886C38AD2B3A929C77EE92 /* ApplesSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E55E055AC03839D23EA722148F52 /* ApplesSDK-dummy.m */; };
 		904385913DA2963FAEDCE8DF405BB51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9F8D03379E1CC4D59B7269B448C1F40A /* Pods-ApplesSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C81260945A0E07B1A9A71FC0AC89BB /* Pods-ApplesSDK_Tests-dummy.m */; };
@@ -46,7 +46,7 @@
 		2D073A41D5D49279A3D46965CDA9406D /* Pods_ApplesSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplesSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		322FC47007C5104FBD3D446699C53988 /* Pods-ApplesSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplesSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		4848A7152BFCE76B00BFC436 /* HiddenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenViewController.swift; sourceTree = "<group>"; };
-		4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ApplesCoreSeedSDK.framework; sourceTree = "<group>"; };
+		4848A74F2BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ApplesCoreSeedSDK.framework; sourceTree = "<group>"; };
 		5617DCAE2B1534438EA26258A08F6285 /* ApplesSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApplesSDK.modulemap; sourceTree = "<group>"; };
 		5F0DF80C544BA49B628E22F66FC4DFF4 /* Pods-ApplesSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApplesSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		6095D2F43D85FE0B69022818426F40C2 /* Pods-ApplesSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApplesSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4848A7442BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
+				4848A7522BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
 				DE60804B99790D3526F8F26765D6271E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4848A7422BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
+				4848A7502BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
 				904385913DA2963FAEDCE8DF405BB51A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4848A7432BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
+				4848A7512BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework in Frameworks */,
 				A8E7905125A4695B96C6C8DE8C7E28C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +150,7 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4848A7412BFCEB6100BFC436 /* ApplesCoreSeedSDK.framework */,
+				4848A74F2BFDE8F600BFC436 /* ApplesCoreSeedSDK.framework */,
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
