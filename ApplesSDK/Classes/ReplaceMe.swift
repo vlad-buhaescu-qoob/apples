@@ -6,9 +6,9 @@ public class ReplaceMe {
     }
     
     func aaa() {
-        let a = HiddenAppleSeedViewController()
-        a.hideSeed()
-        let b = MainIdentificationViewController()
-        b.checkID()
+//        let a = HiddenAppleSeedViewController()
+//        a.hideSeed()
+//        let b = MainIdentificationViewController()
+//        b.checkID()
     }
 }

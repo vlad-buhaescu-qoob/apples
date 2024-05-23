@@ -1,0 +1,6 @@
+framework module ApplesCoreSeedSDK {
+  umbrella header "ApplesCoreSeedSDK.h"
+  export *
+
+  module * { export * }
+}
