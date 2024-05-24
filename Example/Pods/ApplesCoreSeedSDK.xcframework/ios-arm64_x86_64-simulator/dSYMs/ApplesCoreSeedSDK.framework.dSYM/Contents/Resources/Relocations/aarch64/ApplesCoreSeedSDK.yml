@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vladbuhaescu/Library/Developer/Xcode/DerivedData/ApplesCoreSeedSDK-eslsleplokcnybfefnfbeblialbd/Build/Intermediates.noindex/ArchiveIntermediates/ApplesCoreSeedSDK/InstallationBuildProductsLocation/Library/Frameworks/ApplesCoreSeedSDK.framework/ApplesCoreSeedSDK'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x547BC, size: 0x8, addend: 0x0, symName: _ApplesCoreSeedSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x3CF0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x547F1, size: 0x8, addend: 0x0, symName: _ApplesCoreSeedSDKVersionNumber, symObjAddr: 0x40, symBinAddr: 0x3D30, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5482E, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerCACycfC', symObjAddr: 0x0, symBinAddr: 0x386C, symSize: 0x20 }
+  - { offsetInCU: 0x77, offset: 0x5487E, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerCACycfcTo', symObjAddr: 0x78, symBinAddr: 0x38E4, symSize: 0x44 }
+  - { offsetInCU: 0xE8, offset: 0x548EF, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x154, symBinAddr: 0x39C0, symSize: 0x58 }
+  - { offsetInCU: 0x170, offset: 0x54977, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x30C, symBinAddr: 0x3B78, symSize: 0x30 }
+  - { offsetInCU: 0x1E4, offset: 0x549EB, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerCMa', symObjAddr: 0x58, symBinAddr: 0x38C4, symSize: 0x20 }
+  - { offsetInCU: 0x228, offset: 0x54A2F, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x22C, symBinAddr: 0x3A98, symSize: 0x40 }
+  - { offsetInCU: 0x32F, offset: 0x54B36, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerCACycfC', symObjAddr: 0x0, symBinAddr: 0x386C, symSize: 0x20 }
+  - { offsetInCU: 0x343, offset: 0x54B4A, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerCACycfc', symObjAddr: 0x20, symBinAddr: 0x388C, symSize: 0x38 }
+  - { offsetInCU: 0x3BA, offset: 0x54BC1, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerC5coderACSgSo7NSCoderC_tcfC', symObjAddr: 0xBC, symBinAddr: 0x3928, symSize: 0x40 }
+  - { offsetInCU: 0x3CE, offset: 0x54BD5, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0xFC, symBinAddr: 0x3968, symSize: 0x58 }
+  - { offsetInCU: 0x42D, offset: 0x54C34, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerC18showIdentificationyyF', symObjAddr: 0x1AC, symBinAddr: 0x3A18, symSize: 0x80 }
+  - { offsetInCU: 0x4A2, offset: 0x54CA9, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfC', symObjAddr: 0x26C, symBinAddr: 0x3AD8, symSize: 0x74 }
+  - { offsetInCU: 0x4B6, offset: 0x54CBD, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x2E0, symBinAddr: 0x3B4C, symSize: 0x2C }
+  - { offsetInCU: 0x539, offset: 0x54D40, size: 0x8, addend: 0x0, symName: '_$s17ApplesCoreSeedSDK20HiddenViewControllerCfD', symObjAddr: 0x33C, symBinAddr: 0x3BA8, symSize: 0x30 }
+...

@@ -8,35 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApplesSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ApplesSDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Vlad Buhaescu/ApplesSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '0.0.10'
+  s.summary          = 'ApplesSDK is to test how hiden files work for a public pod'
+  s.description      = 'Peaches demo - ApplesSDK is to test how hiden files work for a public pod'
+  s.swift_versions          = '5.10'
+  s.ios.deployment_target   = '15.0'
+  s.homepage         = 'https://github.com/vlad-buhaescu-qoob/apples'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Vlad Buhaescu' => 'vlad.buhaescu@qoobiss.com' }
-  s.source           = { :git => 'https://github.com/Vlad Buhaescu/ApplesSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
+  s.author           = { '144892271' => 'vlad.buhaescu@qoobiss.com' }
+  s.source           = { :git => 'https://github.com/vlad-buhaescu-qoob/apples.git', :tag => s.version.to_s }
   s.source_files = 'ApplesSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ApplesSDK' => ['ApplesSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.exclude_files = 'ApplesSDK/**/*.DS_Store', 'ApplesSDK/**/.git', 'ApplesSDK/**/hidden/*.swift'
+  s.vendored_frameworks = '**/ApplesCoreSeedSDK.xcframework'
 end

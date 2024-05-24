@@ -1,0 +1,249 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApplesCoreSeedSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HiddenViewController",
+        "printedName": "HiddenViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HiddenViewController",
+                "printedName": "ApplesCoreSeedSDK.HiddenViewController",
+                "usr": "c:@M@ApplesCoreSeedSDK@objc(cs)HiddenViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ApplesCoreSeedSDK@objc(cs)HiddenViewController(im)init",
+            "mangledName": "$s17ApplesCoreSeedSDK20HiddenViewControllerCACycfc",
+            "moduleName": "ApplesCoreSeedSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ApplesCoreSeedSDK.HiddenViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HiddenViewController",
+                    "printedName": "ApplesCoreSeedSDK.HiddenViewController",
+                    "usr": "c:@M@ApplesCoreSeedSDK@objc(cs)HiddenViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ApplesCoreSeedSDK@objc(cs)HiddenViewController(im)initWithCoder:",
+            "mangledName": "$s17ApplesCoreSeedSDK20HiddenViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "ApplesCoreSeedSDK",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showIdentification",
+            "printedName": "showIdentification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ApplesCoreSeedSDK20HiddenViewControllerC18showIdentificationyyF",
+            "mangledName": "$s17ApplesCoreSeedSDK20HiddenViewControllerC18showIdentificationyyF",
+            "moduleName": "ApplesCoreSeedSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HiddenViewController",
+                "printedName": "ApplesCoreSeedSDK.HiddenViewController",
+                "usr": "c:@M@ApplesCoreSeedSDK@objc(cs)HiddenViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ApplesCoreSeedSDK@objc(cs)HiddenViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s17ApplesCoreSeedSDK20HiddenViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "ApplesCoreSeedSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ApplesCoreSeedSDK@objc(cs)HiddenViewController",
+        "mangledName": "$s17ApplesCoreSeedSDK20HiddenViewControllerC",
+        "moduleName": "ApplesCoreSeedSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vladbuhaescu\/Desktop\/apple\/ApplesCoreSeedSDK\/ApplesCoreSeedSDK\/HiddenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 28,
+      "length": 20,
+      "value": "\"ApplesCoreSeedSDK.HiddenViewController\""
+    }
+  ]
+}
