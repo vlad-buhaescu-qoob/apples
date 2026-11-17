@@ -1,24 +1,33 @@
 # ApplesSDK
 
-[![CI Status](https://img.shields.io/travis/Vlad Buhaescu/ApplesSDK.svg?style=flat)](https://travis-ci.org/Vlad Buhaescu/ApplesSDK)
-[![Version](https://img.shields.io/cocoapods/v/ApplesSDK.svg?style=flat)](https://cocoapods.org/pods/ApplesSDK)
-[![License](https://img.shields.io/cocoapods/l/ApplesSDK.svg?style=flat)](https://cocoapods.org/pods/ApplesSDK)
-[![Platform](https://img.shields.io/cocoapods/p/ApplesSDK.svg?style=flat)](https://cocoapods.org/pods/ApplesSDK)
-
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Open `Example/ApplesSDK.xcodeproj` and run the `ApplesSDK-Example` scheme. The example app links this repository as a local Swift package.
 
 ## Requirements
 
+- iOS 17.5
+- Swift 5.10
+
+The bundled `ApplesCoreSeedSDK.xcframework` was built for iOS 17.5. Set the app deployment target to 17.5.
+
 ## Installation
 
-ApplesSDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+ApplesSDK is distributed with Swift Package Manager. In Xcode, choose File > Add Package Dependencies and enter:
 
-```ruby
-pod 'ApplesSDK'
 ```
+https://github.com/vlad-buhaescu-qoob/apples.git
+```
+
+Or add it to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/vlad-buhaescu-qoob/apples.git", from: "0.0.10")
+]
+```
+
+Then add the `ApplesSDK` product to your target.
 
 ## Author
 
